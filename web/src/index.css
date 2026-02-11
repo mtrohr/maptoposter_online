@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --color-sand-50: #faf8f5;
+  --color-sand-100: #f5f0e8;
+  --color-sand-200: #e8e0d0;
+  --color-sand-300: #d9ccb8;
+  --color-sand-400: #c9b89e;
+  --color-sand-500: #b5a48e;
+  --color-sand-600: #9a8a70;
+  --color-sand-700: #7a6d58;
+  --color-sand-800: #5c5242;
+  --color-sand-900: #3d362c;
+  --color-sand-950: #201c17;
+
+  --color-terra-50: #fdf5f0;
+  --color-terra-100: #f8e6d8;
+  --color-terra-200: #f0ccb0;
+  --color-terra-300: #e5b08a;
+  --color-terra-400: #d9946a;
+  --color-terra-500: #c9764a;
+  --color-terra-600: #a0522d;
+  --color-terra-700: #8b4513;
+  --color-terra-800: #6b3510;
+  --color-terra-900: #4a250b;
+  --color-terra-950: #2a1506;
+
+  --color-ocean-50: #f0f8fa;
+  --color-ocean-100: #d8eef4;
+  --color-ocean-200: #b0d8e8;
+  --color-ocean-300: #80bdd4;
+  --color-ocean-400: #4a9ab8;
+  --color-ocean-500: #2a7a9a;
+  --color-ocean-600: #1a5f7a;
+  --color-ocean-700: #154d63;
+  --color-ocean-800: #103a4a;
+  --color-ocean-900: #0a2632;
+  --color-ocean-950: #051319;
+
+  --color-success-50: #f0fdf4;
+  --color-success-500: #22c55e;
+  --color-success-700: #15803d;
+
+  --color-warning-50: #fffbeb;
+  --color-warning-500: #f59e0b;
+  --color-warning-700: #b45309;
+
+  --color-error-50: #fef2f2;
+  --color-error-500: #ef4444;
+  --color-error-700: #b91c1c;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-sand-50);
+  color: var(--color-sand-900);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
